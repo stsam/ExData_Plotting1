@@ -18,7 +18,7 @@ plot4 <- function(file = "household_power_consumption.txt"){
     ##Plot the 4 plots
     with(analyData, {
        plot(datetime, Global_active_power, type="l",
-            ylab="Global Active Power (kilowatts)", xlab="")
+            ylab="Global Active Power", xlab="")
        plot(datetime, Voltage, type="l",
             ylab="Voltage", xlab="datetime")
        plot(datetime, Sub_metering_1, type="l",
